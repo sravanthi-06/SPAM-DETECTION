@@ -1,7 +1,7 @@
 
 ---
 
-## 📊 Dataset
+ 📊 Dataset
 
 - **Source**: [UCI SMS Spam Collection Dataset](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 - **Format**: Each row has a label (`ham` or `spam`) and a message
