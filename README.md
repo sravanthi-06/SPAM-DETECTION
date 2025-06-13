@@ -40,9 +40,19 @@ Click the badge to open the project in Colab:
 
 ---
 
+
 ## 🧪 How to Use
 
 1. Clone this repository or open the notebook in Colab
 2. Install dependencies:
    ```python
    !pip install gradio
+   
+---
+
+Load the model and vectorizer:
+import pickle
+model = pickle.load(open("spam_model.pkl", "rb"))
+vectorizer = pickle.load(open("vectorizer.pkl", "rb"))
+
+---
